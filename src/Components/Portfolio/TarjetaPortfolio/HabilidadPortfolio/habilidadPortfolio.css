@@ -1,0 +1,12 @@
+.habilidadPortfolio{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.habilidadPortfolio img{
+    width: 25px;
+    height: 25px;
+}
+.habilidadPortfolio h2{
+   font-size: 14px;
+}

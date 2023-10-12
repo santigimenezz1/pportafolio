@@ -1,0 +1,6 @@
+.skills{
+    width: 380px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}

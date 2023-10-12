@@ -1,0 +1,23 @@
+.portfolio{
+    z-index: 2;
+    padding: 40px;
+    background: linear-gradient(0deg, rgb(114, 0, 231) 0%, rgba(119, 0, 179, 0) 100%);
+
+}
+.portfolio__tarjetas{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+.portfolio__titulo{
+    
+    font-size: 80px;
+    font-size: 5rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    line-height: 6.313rem;
+    margin-bottom: 4rem;
+    color: rgb(255, 0, 191);
+}

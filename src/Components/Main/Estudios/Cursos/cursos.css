@@ -1,0 +1,12 @@
+.cursos{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.cursos img{
+    width: 25px;
+    height: 25px;
+}
+.cursos h1{
+   font-size: 16px;
+}

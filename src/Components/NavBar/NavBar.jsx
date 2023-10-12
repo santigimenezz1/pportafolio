@@ -2,7 +2,7 @@ import React from 'react'
 import '../NavBar/navBar.css'
 import ButtonContact from './ButtonContact/ButtonContact'
 
-const NavBar = () => {
+const NavBar = ( {scrollToSection, scrollPortafolio} ) => {
   let logo = "<Santi/>"
   return (
     <div className='navBar'>
@@ -11,8 +11,8 @@ const NavBar = () => {
       </div>
       <div className='navBar__enlaces'>
         <ul>
-         <li>Sobre mi</li>
-         <li>Portfolio</li>  
+         <li onClick={()=>scrollToSection()}>Sobre mi</li>
+         <li onClick={()=>scrollPortafolio()}>Portfolio</li>  
          <li> <ButtonContact text={"Contactame"} /></li>    
         </ul>
       </div>

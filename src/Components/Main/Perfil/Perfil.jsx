@@ -5,7 +5,7 @@ const Perfil = () => {
   return (
     <div className='perfil'>
      <span>
-        Desarrollador Front-End especializado en React JS. Creación, prototipado y desarrollo de productos digitales  Estoy en constante aprendizaje. Estudiante en Platzi 🚀Antes: Fundadora de Homeworkers en 2017 y de Kitfood en 2019 😎
+        Desarrollador Front-End especializado en React JS. Creación, prototipado y desarrollo de productos digitales. Apasionado del deporte y la fotografía 🚀
      </span>
     </div>
   )
