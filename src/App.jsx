@@ -83,9 +83,15 @@ function App() {
       <h1>Sobre mi.</h1>
       <div className='main__habilidades__links'>
       <div className='main__hablidades__links__link'>
+      <div className={link === "perfil" && "linkOn"}>
       <h2 onClick={()=>perfil()}>Perfil</h2>
+      </div>
+      <div className={link === "estudios" && "linkOn"}>
       <h2 onClick={()=>estudios()}>Estudios</h2>
+      </div>
+      <div className={link === "skills" && "linkOn"}>
       <h2 onClick={()=>skills()}>Skills</h2>
+      </div>
       </div>
       <div className='main__hablidades__dinamico'>
       {
@@ -101,10 +107,10 @@ function App() {
         )
       }
       {
-        link === "estudios" && <Estudios />
+        link === "estudios" && <Estudios  />
       }
       {
-        link === "skills" && <Skills />
+        link === "skills" && <Skills link={link} />
       }
      
        

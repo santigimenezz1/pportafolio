@@ -4,7 +4,7 @@ import Habilidad from '../../Main/Skills/habilidad/Habilidad'
 import HabilidadPortfolio from './HabilidadPortfolio/HabilidadPortfolio'
 import ButtonContact from '../../NavBar/ButtonContact/ButtonContact'
 
-const TarjetaPortfolio = ({urlImagen}) => {
+const TarjetaPortfolio = ({urlImagen, demo, codigo}) => {
   return (
     <div>
     <div class="myCard">
@@ -21,8 +21,8 @@ const TarjetaPortfolio = ({urlImagen}) => {
                 <HabilidadPortfolio text={"Figma"} urlHabilidad={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1697115849/portafolio/habilidades/css-3_yyld3w.png"} />
                 </div>
                 <div className='backSide__buttons'>
-                <ButtonContact text={"Demo"} colorFondo={"yellow"} />
-                <ButtonContact text={"Codigo"} colorFondo={"yellow"} />
+                <ButtonContact text={"Demo"} colorFondo={"yellow"} demo={demo} />
+                <ButtonContact text={"Codigo"} colorFondo={"yellow"}/>
                 </div>
             </div>
         </div>

@@ -158,6 +158,9 @@ html {
     flex-direction: column;
     padding-left: 10px;
 }
+.linkOn{
+  border-bottom: 3px solid rgb(249, 196, 107);
+}
 .main__hablidades__links__link{
     display: flex;
     gap: 30px;
