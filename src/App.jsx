@@ -93,6 +93,7 @@ let arreglo = ['Frontend developer', 'Web designer']
 
 
     <section className='proyectos'>
+    <h1 style={{fontSize:"80px", color:"rgb(255, 0, 191)"}}>Portafolio</h1>
     </section>
     </>
   )
