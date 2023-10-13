@@ -15,7 +15,7 @@ const ButtonContact = ( {colorFondo, text, demo, codigo} ) => {
       color !== "yellow" ?
       <button onClick={()=>handleContactClick()} className='btn'>{text}</button>
       :
-      <a class=" yellow" target='__blank' href={demo}>{text}</a>
+      <a class=" yellow" target='__npblank' href={demo}>{text}</a>
 
     }
     </div>

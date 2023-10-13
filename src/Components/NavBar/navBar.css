@@ -39,6 +39,12 @@
 }
 .navBar__enlaces ul li{
     cursor: pointer;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s;
+}
+
+.navBar__enlaces ul li:hover{
+   border-color: rgb(249, 196, 107);
 }
 .navBar__logo h1{
     font-size: 30px;
