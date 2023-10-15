@@ -3,9 +3,9 @@ import '../habilidad/habilidad.css'
 
 const Habilidad = ( {urlIcon, text} ) => {
   return (
-    <div className='habilidad'>
+    <div className='habilidad__skill'>
     <img src={urlIcon}></img>
-    <h1>{text}</h1>
+    <h2 className='habilidad__skill__titulo'>{text}</h2>
     </div>
   )
 }

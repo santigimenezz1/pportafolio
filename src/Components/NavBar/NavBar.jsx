@@ -4,6 +4,7 @@ import ButtonContact from './ButtonContact/ButtonContact'
 
 const NavBar = ( {scrollToSection, scrollPortafolio} ) => {
   let logo = "<Santi/>"
+  
   return (
     <div className='navBar'>
       <div className='navBar__logo'>

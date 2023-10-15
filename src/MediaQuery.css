@@ -1,0 +1,174 @@
+@media screen and (max-width: 1000px){
+     /*HEADER*/
+    .layout__titulo h1{
+        font-size: 85px;
+        user-select: none;
+      }
+          
+              /*MAIN*/
+
+      .main{
+        gap: 40px;
+      }
+    
+      .main__habilidades{
+        width: 70%;
+      }
+
+
+
+                /*PORTAFOLIO TARJETAS*/
+
+      .myCard {
+        background-color: transparent;
+        width: 700px;
+        max-height: 500px;
+      }
+    
+
+
+}
+
+@media screen and (max-width: 760px){
+         /*HEADER*/
+
+    .layout__titulo h1{
+        font-size: 60px;
+    } 
+    .layout__titulo span{
+        font-size: 30px;
+    } 
+
+
+              /*MAIN*/
+
+    .main{
+        flex-direction: column;
+        height: auto;
+        padding: 5px;
+    }
+    .main__habilidades{
+        width: 100%;
+      }
+      .main__habilidades h1{
+        font-size: 50px;
+        color: rgb(249, 196, 107);   
+    }
+    .main__habilidades__links{
+        width: 90vw;   
+    }
+    .main__hablidades__links__link{
+        justify-content: center; 
+    }
+    
+     .main__habilidades h3{
+        width: 25vw;
+        text-align: center;
+     }
+     .main__hablidades{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid red;
+     }
+
+                /*PORTAFOLIO TARJETAS*/
+
+     .myCard {
+        background-color: transparent;
+        width: 600px;
+        max-height: 400px;
+      }
+
+         /*FOOTER*/
+
+       .footer{
+        padding: 5px;
+       }
+      .container__footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        gap: 10px;
+      }
+   
+}
+
+@media screen and (max-width: 600px){
+         /*HEADER*/
+
+    .layout__titulo h1{
+        font-size: 55px;
+    } 
+    .layout__titulo span{
+        font-size: 25px;
+    } 
+
+                /*PORTAFOLIO TARJETAS*/
+
+    .myCard {
+        background-color: transparent;
+        width: 500px;
+        max-height: 300px;
+      }
+}
+
+@media screen and (max-width: 500px){
+         /*HEADER*/
+
+    .layout__titulo h1{
+        font-size: 50px;
+    } 
+    .layout__titulo span{
+        font-size: 25px;
+    } 
+           /*MAIN*/
+
+    .main__perfil{
+        width: 350px;
+    }
+
+
+                /*PORTAFOLIO TARJETAS*/
+
+    .myCard {
+        background-color: transparent;
+        width: 400px;
+        max-height: 250px;
+      }
+
+
+
+      .habilidadPortfolio{
+        display: flex;
+        align-items: center;
+        gap: 4px;
+    }
+    .habilidadPortfolio img{
+        width: 25px;
+        height: 25px;
+    }
+    .portfolio__titulo{
+        font-size: 50px;
+    }
+
+}
+
+@media screen and (max-width:400px){
+  
+    .main__perfil{
+        width: 300px;
+        height: 450px;
+    }
+    
+    .skills{
+        justify-content: center;
+        width: auto;
+    }
+  .main__hablidades__dinamico{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

@@ -32,10 +32,13 @@
     align-items: center;
     list-style: none;
     gap: 20px;
+    user-select: none;
+
 }
 .navBar__logo h1{
   font-family: Raleway, sans-serif;
   font-size: 25px;
+  user-select: none;
 }
 .navBar__enlaces ul li{
     cursor: pointer;
