@@ -159,7 +159,6 @@
       .myCardMobile{
         width: 90vw;
         height: 90vh;
-        border: 1px solid blue;
       }
       .frontSideMobile__info{
        position: relative;
@@ -215,7 +214,6 @@
       .myCardMobile{
         width: 90vw;
         height: 75vh;
-        border: 1px solid blue;
       }
      
     
@@ -237,7 +235,7 @@
 
     .frontSideMobile__info{
       position: relative;
-      bottom: 25px;
+      bottom: 20px;
      }
 
 }
