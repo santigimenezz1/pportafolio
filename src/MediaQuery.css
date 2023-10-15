@@ -36,6 +36,10 @@
     .layout__titulo span{
         font-size: 30px;
     } 
+    .layout__titulo__buttonDown{
+     position: relative;
+     top: 80px; 
+    }
 
               /*MAIN*/
 
