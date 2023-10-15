@@ -94,9 +94,19 @@
     }
    
     .skills{
-      width: 100%;
+      width: 400px;
       justify-content: center;
     }
+    .habilidad__skill{
+      width: 150px;
+    }
+    .main__hablidades__dinamico{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+    }
+   
 
 
                 /*PORTAFOLIO TARJETAS*/
@@ -186,6 +196,7 @@
     .main__hablidades__links{
      padding-left: 0px;
     }
+  
   
 
 
