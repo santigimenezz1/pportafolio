@@ -9,7 +9,7 @@ const TarjetaMobile = ({urlImagen, demo, codigo}) => {
     <div class="myCardMobile">
         <div>
             <div class="frontSideMobile"> 
-            <img className='frontSide__imagen' src={urlImagen}></img>
+            <img className='frontSide__imagenMobile' src={urlImagen}></img>
             <div className='frontSideMobile__info'>
             <h1>Cascanueces Store</h1>
              <div className='frontSideMobile__tecnologias'>
