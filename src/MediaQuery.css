@@ -9,12 +9,10 @@
               /*MAIN*/
 
       .main{
-        gap: 40px;
+        gap: 80px;
       }
     
-      .main__habilidades{
-        width: 70%;
-      }
+      
 
 
 
@@ -76,12 +74,30 @@
         width: 25vw;
         text-align: center;
      }
-     .main__hablidades{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border: 1px solid red;
-     }
+  
+
+     .main__habilidades{
+      align-items: center;
+      gap: 40px;
+      width: 100%;
+    }
+    .main__habilidades__dinamico__buttons{
+      align-items: center;
+      gap: 25px;
+      width: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+    }
+    .perfil{
+      text-align: center;
+    }
+   
+    .skills{
+      width: 100%;
+      justify-content: center;
+    }
+
 
                 /*PORTAFOLIO TARJETAS*/
 
@@ -156,6 +172,21 @@
     .main__perfil{
         width: 350px;
     }
+    .main__habilidades{
+      align-items: center;
+      gap: 40px;
+      width: 100%;
+    }
+    .main__hablidades__dinamico{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .main__hablidades__links{
+     padding-left: 0px;
+    }
+  
 
 
                 /*PORTAFOLIO TARJETAS*/
@@ -189,6 +220,10 @@
         width: 300px;
         height: 450px;
     }
+    .habilidad__skill{
+      width: 130px;
+      justify-content: start;
+    }
     
     .skills{
         justify-content: center;
@@ -198,5 +233,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 10px;
   }
 }
