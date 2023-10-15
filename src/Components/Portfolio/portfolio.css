@@ -5,12 +5,19 @@
 
 
 }
-.portfolio__tarjetas{
+.portfolio__tarjetas {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
+}
+.portfolio__tarjetasMobile{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0px;
 }
 .portfolio__titulo{
     font-size: 5rem;
@@ -24,11 +31,3 @@
 
 
 
-.portfolio__tarjetasMobile{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 30px;
-    display: none;
-}
