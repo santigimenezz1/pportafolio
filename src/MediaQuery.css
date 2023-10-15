@@ -212,6 +212,11 @@
         width: 400px;
         max-height: 250px;
       }
+      .myCardMobile{
+        width: 90vw;
+        height: 55vh;
+        border: 1px solid blue;
+      }
      
     
 
@@ -232,7 +237,7 @@
 
     .frontSideMobile__info{
       position: relative;
-      bottom: 35px;
+      bottom: 25px;
      }
 
 }
