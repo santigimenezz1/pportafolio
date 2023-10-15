@@ -9,7 +9,7 @@ import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
 
 const Header = ( {scrollToSection} ) => {
   return (
-    <div className='container__layout'>
+    <div>
     <div className='layout__titulo'>
     <span>iHola! me llamo,</span>
     <h1>Santiago Gimenez</h1>

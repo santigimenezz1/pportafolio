@@ -1,8 +1,4 @@
-.container__layout{
-  border: 1px solid green;
-  width: 98%;
-  
-}
+
 .layout__titulo{
     display: flex;
     flex-direction: column;

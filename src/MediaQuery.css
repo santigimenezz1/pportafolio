@@ -138,9 +138,7 @@
 }
 
 @media screen and (max-width: 500px){
-  body{
-    max-width: 414px;
-  }
+  
          /*HEADER*/
 
     .layout__titulo h1{
