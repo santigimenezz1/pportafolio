@@ -146,6 +146,9 @@
         font-size: 25px;
     } 
            /*MAIN*/
+           .main{
+            margin-top: 50px;
+           }
 
     .main__perfil{
         width: 350px;
