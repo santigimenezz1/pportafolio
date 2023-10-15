@@ -23,7 +23,7 @@ function App() {
 
 
   return (
-    <>
+    <div className='container__app'>
     <div className='navBarOff'>
     <NavBar scrollToSection={scrollToSection} scrollPortafolio={scrollPortafolio} />
     </div>
@@ -49,7 +49,7 @@ function App() {
       <Footer />
     </footer>
     
-    </>
+    </div>
   )
 }
 

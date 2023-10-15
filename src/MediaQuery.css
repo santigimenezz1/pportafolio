@@ -4,6 +4,10 @@
         font-size: 85px;
         user-select: none;
       }
+      .layout__titulo__buttonDown{
+        position: relative;
+        top: 30px;
+      }
           
               /*MAIN*/
 
@@ -48,6 +52,11 @@
     .layout__titulo span{
         font-size: 30px;
     } 
+
+    .layout__titulo__buttonDown{
+      position: relative;
+      top: 40px;
+    }
 
 
               /*MAIN*/
@@ -114,6 +123,10 @@
     .layout__titulo span{
         font-size: 25px;
     } 
+    .layout__titulo__buttonDown{
+      position: relative;
+      top: 65px;
+    }
 
                 /*PORTAFOLIO TARJETAS*/
 
@@ -145,6 +158,10 @@
     .layout__titulo span{
         font-size: 25px;
     } 
+    .layout__titulo__buttonDown{
+      position: relative;
+      top: 90px;
+    }
            /*MAIN*/
 
     .main__perfil{
