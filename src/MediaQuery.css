@@ -177,6 +177,7 @@
            /*MAIN*/
            .main{
             margin-top: 50px;
+            height: 800px;
            }
 
     .main__perfil{
@@ -221,6 +222,8 @@
     }
     .portfolio__titulo{
         font-size: 50px;
+        text-align: center;
+        margin-bottom: 40px;
     }
 
 }

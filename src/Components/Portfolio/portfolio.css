@@ -13,14 +13,13 @@
     gap: 30px;
 }
 .portfolio__titulo{
-    
-    font-size: 80px;
     font-size: 5rem;
     font-weight: 700;
     letter-spacing: 0.1rem;
     line-height: 6.313rem;
     margin-bottom: 4rem;
     color: rgb(255, 0, 191);
+    
 }
 
 
