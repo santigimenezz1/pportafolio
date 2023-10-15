@@ -1,8 +1,5 @@
 @media screen and (max-width: 1000px){
-  .container__app{
-    width: 100%;
-    overflow-y: hidden;
-  }
+
      /*HEADER*/
     .layout__titulo h1{
         font-size: 85px;
@@ -141,6 +138,9 @@
 }
 
 @media screen and (max-width: 500px){
+  body{
+    max-width: 414px;
+  }
          /*HEADER*/
 
     .layout__titulo h1{
