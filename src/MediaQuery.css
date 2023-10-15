@@ -231,6 +231,7 @@
 
     .frontSideMobile__info{
       position: relative;
+      bottom: 20px;
      }
 
 }
