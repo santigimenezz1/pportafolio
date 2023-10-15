@@ -49,33 +49,7 @@
     width: 100%;
     height: 220px;
   }
-  .backSide {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    color: white;
-    font-weight: 700;
-    background-color: rgb(37, 46, 66);
-    gap: 25px;
-
-  }
-  .backSide h1{
-    font-size: 30px;
-   color: rgb(249, 196, 107) ;
-   font-weight: 700;
-  }
-  
-  
-  .backSide {
-    transform: rotateY(180deg);
-  }
-  
+ 
   .frontSide::before,
   .backSide::before {
     top: 50%;

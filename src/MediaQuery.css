@@ -159,7 +159,10 @@
       .myCardMobile{
         width: 90vw;
         height: 90vh;
-        
+      }
+      .frontSideMobile__info{
+       position: relative;
+       bottom: 15px;
       }
 }
 
@@ -226,6 +229,11 @@
         margin-bottom: 30px;
     }
 
+    .frontSideMobile__info{
+      position: relative;
+      bottom: 85px;
+     }
+
 }
 
 @media screen and (max-width:400px){
@@ -249,4 +257,13 @@
     align-items: center;
     gap: 10px;
   }
+
+
+
+
+  .frontSideMobile__info{
+    position: relative;
+    bottom: 70px;
+   }
+
 }
