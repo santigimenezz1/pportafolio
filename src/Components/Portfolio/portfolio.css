@@ -21,3 +21,14 @@
     margin-bottom: 4rem;
     color: rgb(255, 0, 191);
 }
+
+
+
+.portfolio__tarjetasMobile{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    display: none;
+}

@@ -7,6 +7,7 @@ import Footer from './Components/Footer/Footer'
 import Header from './Components/Header/Header'
 import Main from './Components/Main/Main'
 import '../src/MediaQuery.css'
+import NavBarMobile from './Components/NavBar/NavBarMobile/NavBarMobile'
 
 
 function App() {
@@ -23,8 +24,13 @@ function App() {
 
   return (
     <>
-   
+    <div className='navBarOff'>
     <NavBar scrollToSection={scrollToSection} scrollPortafolio={scrollPortafolio} />
+    </div>
+    <div className='navBarMobileOff'>
+    <NavBarMobile scrollToSection={scrollToSection} scrollPortafolio={scrollPortafolio} />
+    </div>
+
     <div className='layout'>
     <ParticlesBackground />
     <Header scrollToSection={scrollToSection} />

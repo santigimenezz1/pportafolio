@@ -30,6 +30,16 @@
 }
 
 @media screen and (max-width: 760px){
+       /*NAVBAR MOBILE*/
+       .navBarOff{
+        display: none;
+       }
+       .navBarMobileOff{
+        display: block;
+       }
+
+
+
          /*HEADER*/
 
     .layout__titulo h1{
@@ -112,6 +122,18 @@
         width: 500px;
         max-height: 300px;
       }
+
+      .portfolio__tarjetas{
+        display: none;
+      }
+      .portfolio__tarjetasMobile{
+        display: flex;
+      }
+      .myCardMobile{
+        width: 90vw;
+        height: 90vh;
+        
+      }
 }
 
 @media screen and (max-width: 500px){
@@ -137,8 +159,8 @@
         width: 400px;
         max-height: 250px;
       }
-
-
+     
+    
 
       .habilidadPortfolio{
         display: flex;
