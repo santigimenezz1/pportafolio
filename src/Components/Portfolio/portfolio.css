@@ -14,7 +14,7 @@
 }
 .portfolio__tarjetasMobile{
     width: 100%;
-    display: flex;
+    display: none;
     flex-wrap: wrap;
     justify-content: center;
     gap: 0px;

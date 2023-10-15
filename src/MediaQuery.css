@@ -4,18 +4,12 @@
     .layout__titulo h1{
         font-size: 85px;
         user-select: none;
-      }
-          
+      }     
               /*MAIN*/
-
       .main{
         gap: 80px;
       }
     
-      
-
-
-
                 /*PORTAFOLIO TARJETAS*/
 
       .myCard {
@@ -23,9 +17,6 @@
         width: 700px;
         max-height: 500px;
       }
-    
-
-
 }
 
 @media screen and (max-width: 760px){
@@ -37,8 +28,6 @@
         display: block;
        }
 
-
-
          /*HEADER*/
 
     .layout__titulo h1{
@@ -47,7 +36,6 @@
     .layout__titulo span{
         font-size: 30px;
     } 
-
 
               /*MAIN*/
 
@@ -69,13 +57,11 @@
     .main__hablidades__links__link{
         justify-content: center; 
     }
-    
      .main__habilidades h3{
         width: 25vw;
         text-align: center;
      }
   
-
      .main__habilidades{
       align-items: center;
       gap: 40px;
@@ -107,8 +93,6 @@
      align-items: center;
     }
    
-
-
                 /*PORTAFOLIO TARJETAS*/
 
      .myCard {
@@ -116,7 +100,6 @@
         width: 600px;
         max-height: 400px;
       }
-
          /*FOOTER*/
 
        .footer{
@@ -128,8 +111,7 @@
         align-items: center;
         height: auto;
         gap: 10px;
-      }
-   
+      } 
 }
 
 @media screen and (max-width: 600px){
@@ -141,7 +123,6 @@
     .layout__titulo span{
         font-size: 25px;
     } 
-
                 /*PORTAFOLIO TARJETAS*/
 
     .myCard {
@@ -149,7 +130,6 @@
         width: 500px;
         max-height: 300px;
       }
-
       .portfolio__tarjetas{
         display: none;
       }
@@ -167,22 +147,18 @@
 }
 
 @media screen and (max-width: 500px){
-  
          /*HEADER*/
-
     .layout__titulo h1{
         font-size: 50px;
     } 
     .layout__titulo span{
         font-size: 25px;
     } 
-  
            /*MAIN*/
            .main{
             margin-top: 80px;
             height: 900px;
            }
-
     .main__perfil{
         width: 350px;
     }
@@ -201,9 +177,6 @@
      padding-left: 0px;
     }
   
-  
-
-
                 /*PORTAFOLIO TARJETAS*/
 
     .myCard {
@@ -215,8 +188,6 @@
         width: 90vw;
         height: 75vh;
       }
-     
-    
 
       .habilidadPortfolio{
         display: flex;
@@ -237,9 +208,7 @@
       position: relative;
       bottom: 20px;
      }
-
 }
-
 @media screen and (max-width:400px){
   
     .main__perfil{
@@ -249,8 +218,7 @@
     .habilidad__skill{
       width: 130px;
       justify-content: start;
-    }
-    
+    }  
     .skills{
         justify-content: center;
         width: auto;
@@ -261,10 +229,6 @@
     align-items: center;
     gap: 10px;
   }
-
-
-
-
   .frontSideMobile__info{
     position: relative;
     bottom: 70px;
