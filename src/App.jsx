@@ -23,7 +23,7 @@ function App() {
 
 
   return (
-    <div style={{width:100%}}>
+    <div style={{width:"100%"}}>
     <div className='navBarOff'>
     <NavBar scrollToSection={scrollToSection} scrollPortafolio={scrollPortafolio} />
     </div>
