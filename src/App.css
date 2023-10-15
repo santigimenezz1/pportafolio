@@ -11,6 +11,7 @@ html {
   }
   .container__app{
     overflow-y: hidden;
+  
   }
   .layout{
     width: 100%;

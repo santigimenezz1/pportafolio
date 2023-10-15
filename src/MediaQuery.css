@@ -195,7 +195,16 @@
 }
 
 @media screen and (max-width:400px){
+
+
+  .layout__titulo{
+    margin-bottom: 60px;
+  }
   
+  .main{
+    border: 1px solid red;
+    margin-top: 80px;
+  }
     .main__perfil{
         width: 300px;
         height: 450px;
