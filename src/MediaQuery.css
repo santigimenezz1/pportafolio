@@ -1,6 +1,6 @@
 @media screen and (max-width: 1000px){
   .container__app{
-    width: 110%;
+    width: 100%;
     overflow-y: hidden;
   }
      /*HEADER*/
