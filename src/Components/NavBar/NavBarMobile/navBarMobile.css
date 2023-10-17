@@ -1,4 +1,4 @@
-.navBar {
+.navBarMobile {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -11,6 +11,7 @@
     backdrop-filter: blur(10px); /* Agrega el efecto de desenfoque */
     z-index: 5; /* Asegura que la barra esté por encima del contenido desenfocado */
     border-bottom: 1px solid rgba(104, 4, 204, 0.711);
+    
 }
 
 .content {
@@ -53,4 +54,7 @@
     font-size: 30px;
     font-family: sans-serif;
 }
+
+
+
 

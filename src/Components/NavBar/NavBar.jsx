@@ -6,6 +6,7 @@ const NavBar = ( {scrollToSection, scrollPortafolio} ) => {
   let logo = "<Santi/>"
   
   return (
+    <>
     <div className='navBar'>
       <div className='navBar__logo'>
       <h1>{logo}</h1>
@@ -18,6 +19,7 @@ const NavBar = ( {scrollToSection, scrollPortafolio} ) => {
         </ul>
       </div>
     </div>
+    </>
   )
 }
 

@@ -1,9 +1,9 @@
 import React from 'react'
 import '../Hamburguesa/hamburguesa.css'
 
-const Hamburguesa = () => {
+const Hamburguesa = ( {abrirMenu} ) => {
   return (
-    <div>
+    <div onClick={()=>abrirMenu()}>
     <input
       id="checkbox"
       type="checkbox"

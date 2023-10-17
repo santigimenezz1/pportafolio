@@ -1,0 +1,46 @@
+.enlacesMobile{
+    height: 100%;
+    background: rgb(37, 46, 66);
+    position: absolute;
+    top: 0;
+    z-index: 50;
+    width: 100%;
+}
+.enalcesMobile__escape{
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    padding-right: 20px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+.enlacesMobile__buttons{
+    position: fixed;
+    top: 35%;
+    left: 35%;
+    display: flex;
+
+
+}
+.enalcesMobile__buttons__button{
+    color: white;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s;
+    font-size: 35px;
+    margin: 20px;
+    list-style: none;
+    text-align: center;
+
+}
+.enalcesMobile__buttons__button:hover{
+    border-color: rgb(249, 196, 107);
+    
+
+}
+
+
+
+

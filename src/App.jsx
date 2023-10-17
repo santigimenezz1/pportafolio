@@ -8,6 +8,7 @@ import Header from './Components/Header/Header'
 import Main from './Components/Main/Main'
 import '../src/MediaQuery.css'
 import NavBarMobile from './Components/NavBar/NavBarMobile/NavBarMobile'
+import EnlacesMobile from './Components/NavBar/NavBarMobile/EnlacesMobile/EnlacesMobile'
 
 
 function App() {
@@ -23,7 +24,8 @@ function App() {
 
 
   return (
-    <div style={{width:"100%", overflow:"hidden"}}>
+    <div style={{width:"100%", overflow:"hidden", position:"relative"}}>
+     <EnlacesMobile />
     <div className='navBarOff'>
     <NavBar scrollToSection={scrollToSection} scrollPortafolio={scrollPortafolio} />
     </div>
