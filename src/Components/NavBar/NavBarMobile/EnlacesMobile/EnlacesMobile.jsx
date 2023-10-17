@@ -1,10 +1,13 @@
 import ButtonContact from '../../ButtonContact/ButtonContact'
 import '../EnlacesMobile/enlacesMobile.css'
-function EnlacesMobile() {
+function EnlacesMobile( {setNavOn} ) {
+  const cerrarMenu = ()=>{
+    setNavOn(false)
+  }
   return (
     <div className='enlacesMobile'>
     <div className='enalcesMobile__escape'>
-    <h1>X</h1>
+    <h1 onClick={()=>cerrarMenu()}>X</h1>
     </div>
     <div className='enlacesMobile__buttons'>
     <ul>

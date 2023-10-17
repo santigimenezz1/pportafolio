@@ -5,12 +5,11 @@ import EnlacesMobile from './EnlacesMobile/EnlacesMobile'
 import Hamburguesa from './Hamburguesa/Hamburguesa'
 
 
-const NavBarMobile = ( {scrollToSection, scrollPortafolio} ) => {
+const NavBarMobile = ( {setNavOn, scrollToSection, scrollPortafolio} ) => {
   let logo = "<Santi/>"
-  const [navBarOn, setNavBarOn] = useState(false)
   
   const abrirMenu = ()=>{
-    setNavBarOn(!navBarOn)
+    setNavOn(true)
   }
   return (
     <>
@@ -18,7 +17,7 @@ const NavBarMobile = ( {scrollToSection, scrollPortafolio} ) => {
       <div className='navBar__logo'>
       <h1>{logo}</h1>
       </div>
-      <div className='navBar__enlaces'>
+      <div onClick={()=>abrirMenu()} className='navBar__enlaces'>
       <Hamburguesa abrirMenu={abrirMenu} />
       </div>
       </div>

@@ -3,7 +3,7 @@ import '../Hamburguesa/hamburguesa.css'
 
 const Hamburguesa = ( {abrirMenu} ) => {
   return (
-    <div onClick={()=>abrirMenu()}>
+    <div>
     <input
       id="checkbox"
       type="checkbox"
