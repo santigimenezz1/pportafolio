@@ -22,7 +22,7 @@ function App() {
     portafolioRef.current.scrollIntoView({ behavior: 'smooth' });
   };
 
-  const [navOn, setNavOn] = useState(true)
+  const [navOn, setNavOn] = useState(false)
    
 
   return (
@@ -31,7 +31,7 @@ function App() {
       <div style={{width:"100%", overflow:"hidden", position:"relative"}}>
         {
           navOn && (
-            <EnlacesMobile setNavOn={setNavOn} />
+            <EnlacesMobile scrollToSection={scrollToSection} scrollPortafolio={scrollPortafolio} setNavOn={setNavOn} />
           )
         }
 

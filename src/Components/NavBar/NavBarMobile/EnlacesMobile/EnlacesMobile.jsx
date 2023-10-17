@@ -1,9 +1,23 @@
 import ButtonContact from '../../ButtonContact/ButtonContact'
 import '../EnlacesMobile/enlacesMobile.css'
-function EnlacesMobile( {setNavOn} ) {
+function EnlacesMobile( {scrollToSection, scrollPortafolio, setNavOn} ) {
   const cerrarMenu = ()=>{
     setNavOn(false)
   }
+  const navegarSobreMi = ()=>{
+    setNavOn(false)
+    setTimeout(() => {
+      scrollToSection()
+    }, 10);
+  }
+  const navegarPortfolio = ()=>{
+    setNavOn(false)
+    setTimeout(() => {
+      scrollPortafolio()
+    }, 10);
+  }
+  
+  
   return (
     <div className='enlacesMobile'>
     <div className='enalcesMobile__escape'>
@@ -11,8 +25,8 @@ function EnlacesMobile( {setNavOn} ) {
     </div>
     <div className='enlacesMobile__buttons'>
     <ul>
-    <li  className='enalcesMobile__buttons__button'>Sobre mi</li>
-    <li className='enalcesMobile__buttons__button'>Portfolio</li>  
+    <li onClick={()=>navegarSobreMi()}  className='enalcesMobile__buttons__button'>Sobre mi</li>
+    <li onClick={()=>navegarPortfolio()} className='enalcesMobile__buttons__button'>Portfolio</li>  
     <div style={{display:"flex", justifyContent:"center"}}>
     <ButtonContact text={"Contactame"} />   
     </div>

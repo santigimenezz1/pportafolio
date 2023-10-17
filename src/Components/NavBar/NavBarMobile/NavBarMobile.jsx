@@ -11,6 +11,7 @@ const NavBarMobile = ( {setNavOn, scrollToSection, scrollPortafolio} ) => {
   const abrirMenu = ()=>{
     setNavOn(true)
   }
+  
   return (
     <>
     <div className='navBarMobile'>
