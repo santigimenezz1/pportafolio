@@ -33,6 +33,7 @@ function App() {
     <NavBarMobile scrollToSection={scrollToSection} scrollPortafolio={scrollPortafolio} />
     </div>
 
+    
     <div className='layout'>
     <ParticlesBackground />
     <Header scrollToSection={scrollToSection} />
