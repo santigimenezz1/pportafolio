@@ -1,4 +1,3 @@
-import React from 'react'
 import '../NavBar/navBar.css'
 import ButtonContact from './ButtonContact/ButtonContact'
 
