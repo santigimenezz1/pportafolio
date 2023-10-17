@@ -1,4 +1,4 @@
-import { useRef } from 'react'
+import { useRef, useState } from 'react'
 import './App.css'
 import ParticlesBackground from './Components/ParticlesBackground'
 import NavBar from './Components/NavBar/NavBar'
@@ -22,37 +22,57 @@ function App() {
     portafolioRef.current.scrollIntoView({ behavior: 'smooth' });
   };
 
+  const [navOn, setNavOn] = useState(false)
+
 
   return (
-    <div style={{width:"100%", overflow:"hidden", position:"relative"}}>
-     <EnlacesMobile />
-    <div className='navBarOff'>
-    <NavBar scrollToSection={scrollToSection} scrollPortafolio={scrollPortafolio} />
-    </div>
-    <div className='navBarMobileOff'>
-    <NavBarMobile scrollToSection={scrollToSection} scrollPortafolio={scrollPortafolio} />
-    </div>
-
     
-    <div className='layout'>
-    <ParticlesBackground />
-    <Header scrollToSection={scrollToSection} />
-    </div>
-
-    <section ref={sectionRef} className='main'>
-    <Main />
-    </section>
-
-
-    <section ref={portafolioRef} className='proyectos'>
-    <Portfolio  />
-    </section>
-
-    <footer className='footer'>
-      <Footer />
-    </footer>
     
-    </div>
+      <div style={{width:"100%", overflow:"hidden", position:"relative"}}>
+        {
+          navOn && (
+            <EnlacesMobile />
+          )
+        }
+
+        {
+          !navOn && (
+            <>
+            <div className='navBarOff'>
+            <NavBar scrollToSection={scrollToSection} scrollPortafolio={scrollPortafolio} />
+            </div>
+            <div className='navBarMobileOff'>
+            <NavBarMobile scrollToSection={scrollToSection} scrollPortafolio={scrollPortafolio} />
+            </div>
+            
+            
+            <div className='layout'>
+            <ParticlesBackground />
+            <Header scrollToSection={scrollToSection} />
+            </div>
+            
+            <section ref={sectionRef} className='main'>
+            <Main />
+            </section>
+            
+            
+            <section ref={portafolioRef} className='proyectos'>
+            <Portfolio  />
+            </section>
+            
+            <footer className='footer'>
+             <Footer />
+            </footer>
+            </>
+          )
+        }
+
+
+
+
+       
+      </div>
+
   )
 }
 
