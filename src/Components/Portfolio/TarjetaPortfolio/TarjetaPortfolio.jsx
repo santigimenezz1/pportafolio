@@ -12,7 +12,7 @@ const TarjetaPortfolio = ({urlImagen, demo, codigo}) => {
             <div class="frontSide"> 
             <img className='frontSide__imagen' src={urlImagen}></img>
             </div>
-            <div class="backSide">
+            <div className="backSide">
                 <h1>Cascanueces Store</h1>
                 <div className='backSide__tecnologias'>
                 <HabilidadPortfolio text={"CSS"} urlHabilidad={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1697115849/portafolio/habilidades/html-5_q48xod.png"} />
