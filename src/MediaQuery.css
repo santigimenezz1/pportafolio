@@ -20,13 +20,10 @@
 }
 
 @media screen and (max-width: 760px){
+  
        /*NAVBAR MOBILE*/
-       .navBar{
-        display: none;
-       }
-       .navBarMobile{
-        display: flex;
-       }
+     
+       
 
          /*HEADER*/
 
@@ -116,6 +113,13 @@
         height: auto;
         gap: 10px;
       } 
+
+
+      .navBar{
+        display: none;
+       }
+
+  
 }
 
 @media screen and (max-width: 600px){

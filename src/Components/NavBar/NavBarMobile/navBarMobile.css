@@ -1,3 +1,5 @@
+
+
 .navBarMobile {
     position: sticky;
     top: 0;
@@ -11,7 +13,8 @@
     backdrop-filter: blur(10px); /* Agrega el efecto de desenfoque */
     z-index: 5; /* Asegura que la barra esté por encima del contenido desenfocado */
     border-bottom: 1px solid rgba(104, 4, 204, 0.711);
-    
+
+
 }
 
 .content {
@@ -54,6 +57,21 @@
     font-size: 30px;
     font-family: sans-serif;
 }
+
+
+
+/* Mostrar NavBarMobile solo en resoluciones menores a 760px */
+@media (max-width: 761px) {
+    .navBarMobile {
+      display: flex;
+    }
+  }
+  /* Ocultar NavBarMobile en resoluciones de 760px o más */
+  @media (min-width: 761px) {
+    .navBarMobile {
+      display: none;
+    }
+  }
 
 
 

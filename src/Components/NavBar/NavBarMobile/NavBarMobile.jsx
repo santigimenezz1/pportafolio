@@ -1,7 +1,5 @@
 
-import { useState } from 'react'
 import '../NavBarMobile/navBarMobile.css'
-import EnlacesMobile from './EnlacesMobile/EnlacesMobile'
 import Hamburguesa from './Hamburguesa/Hamburguesa'
 
 
@@ -13,7 +11,6 @@ const NavBarMobile = ( {setNavOn, scrollToSection, scrollPortafolio} ) => {
   }
   
   return (
-    <>
     <div className='navBarMobile'>
       <div className='navBar__logo'>
       <h1>{logo}</h1>
@@ -22,9 +19,7 @@ const NavBarMobile = ( {setNavOn, scrollToSection, scrollPortafolio} ) => {
       <Hamburguesa abrirMenu={abrirMenu} />
       </div>
       </div>
-      
-    
-    </>
+
   )
 }
 

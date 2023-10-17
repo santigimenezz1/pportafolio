@@ -22,7 +22,7 @@ function App() {
     portafolioRef.current.scrollIntoView({ behavior: 'smooth' });
   };
 
-  const [navOn, setNavOn] = useState(true)
+  const [navOn, setNavOn] = useState(false)
    
 
   return (
