@@ -26,7 +26,7 @@ function App() {
    
 
   return (
-            <>
+            <div style={{overflowX:"hidden"}}>
             
             {
               navOn ? 
@@ -58,7 +58,7 @@ function App() {
             {
             
             }
-            </>
+            </div>
        
      
 
