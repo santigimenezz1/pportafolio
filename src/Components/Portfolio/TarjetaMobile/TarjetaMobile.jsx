@@ -3,7 +3,7 @@ import '../TarjetaMobile/tarjetaMobile.css'
 import HabilidadPortfolio from '../TarjetaPortfolio/HabilidadPortfolio/HabilidadPortfolio'
 import ButtonContact from '../../NavBar/ButtonContact/ButtonContact'
 
-const TarjetaMobile = ({urlImagen, demo, codigo}) => {
+const TarjetaMobile = ({urlImagen, demo, codigo, description}) => {
   return (
     <div>
     <div class="myCardMobile">
@@ -12,7 +12,7 @@ const TarjetaMobile = ({urlImagen, demo, codigo}) => {
             <img className='frontSide__imagenMobile' src={urlImagen}></img>
             <div className='frontSideMobile__info'>
             <h1>Cascanueces Store</h1>
-            <span className='description'>e-comerce para una tienda de la cuidad de rosario, la cual contiene registro de usuarios, y un app independiente para agregar, editar o eliminar los productos</span>
+            <span className='description'>{description}</span>
              <div className='frontSideMobile__tecnologias'>
              <HabilidadPortfolio text={"CSS"} urlHabilidad={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1697115849/portafolio/habilidades/html-5_q48xod.png"} />
              <HabilidadPortfolio text={"JavaScript"} urlHabilidad={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1697115849/portafolio/habilidades/css-3_yyld3w.png"} />
