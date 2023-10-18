@@ -9,10 +9,7 @@ const Estudios = () => {
       <Cursos text={"Curso de desarrollo web"} urlCurso={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1697116999/portafolio/habilidades/nx2vppdwkspzyle9z070.png"} />
       <Cursos text={"Curso de desarrollo web"} urlCurso={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1697116999/portafolio/habilidades/nx2vppdwkspzyle9z070.png"} />
       <Cursos text={"Curso de desarrollo web"} urlCurso={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1697116999/portafolio/habilidades/nx2vppdwkspzyle9z070.png"} />
-      <Cursos text={"Curso de desarrollo web"} urlCurso={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1697116999/portafolio/habilidades/nx2vppdwkspzyle9z070.png"} />
-      <Cursos text={"Curso de desarrollo web"} urlCurso={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1697116999/portafolio/habilidades/nx2vppdwkspzyle9z070.png"} />
-      <Cursos text={"Curso de desarrollo web"} urlCurso={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1697116999/portafolio/habilidades/nx2vppdwkspzyle9z070.png"} />
-      <Cursos text={"Curso de desarrollo web"} urlCurso={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1697116999/portafolio/habilidades/nx2vppdwkspzyle9z070.png"} />
+      
      
     </div>
   )
