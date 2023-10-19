@@ -26,7 +26,7 @@ function App() {
    
 
   return (
-            <div style={{overflowX:"hidden"}}>
+            <div>
             
             {
               navOn ? 
@@ -35,10 +35,11 @@ function App() {
                 <>
                 <NavBar  scrollToSection={scrollToSection} scrollPortafolio={scrollPortafolio} />
                 <NavBarMobile setNavOn={setNavOn} scrollToSection={scrollToSection} scrollPortafolio={scrollPortafolio} />
-                <div className='layout'>
+                <div style={{overflowX:"hidden", overflowY:"hidden"}} className='layout'>
                 <ParticlesBackground />
                 <Header scrollToSection={scrollToSection} />
                 </div>
+                
                 
                 <section ref={sectionRef} className='main'>
                 <Main />
