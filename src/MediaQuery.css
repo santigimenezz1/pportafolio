@@ -251,6 +251,7 @@
 }
 .portfolio__tarjetasMobile{
   gap: 120px;
+  margin-bottom: 150px;
 }
 }
 
