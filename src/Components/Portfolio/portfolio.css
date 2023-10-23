@@ -17,7 +17,7 @@
     display: none;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 0px;
+    gap: 20px;
 }
 .portfolio__titulo{
     font-size: 5rem;
