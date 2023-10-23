@@ -249,6 +249,10 @@
 .tarjetaMobilev2{
   height: 350px;
 }
+.portfolio__tarjetasMobile{
+  gap: 120px;
+}
+}
 
 @media screen and (max-width:400px){
   
