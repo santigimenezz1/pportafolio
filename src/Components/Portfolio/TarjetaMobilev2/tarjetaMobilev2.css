@@ -1,0 +1,16 @@
+.tarjetaMobilev2{
+    width: 100%;
+    height: 600px;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+}
+.tarjetaMobilev2__imagen img{
+    width: 100%;
+    height: 100%;
+}
+.tarjetaMobilev2__info{
+    width: 100%;
+    height: 300px;
+    border: 5px solid blue;
+}
