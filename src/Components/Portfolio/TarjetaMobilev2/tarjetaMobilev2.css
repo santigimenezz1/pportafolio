@@ -32,7 +32,7 @@
 
 .tarjetaMobile2__info__habilidades{
    display: flex;
-   gap: 25px;
+   gap: 15px;
 }
 .tarjetaMobile2__info__habilidades__buttons{
     display: flex;

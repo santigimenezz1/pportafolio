@@ -220,6 +220,31 @@
      .yellow{
       font-size: 10px;
      }
+
+     .habilidadPortfolio img{
+      width: 20px;
+      height: 20px;
+  }
+  .habilidadPortfolio h2{
+    font-size: 12px;
+ }
+}
+
+@media screen and (max-width:414px){
+  .habilidadPortfolio img{
+    width: 16px;
+    height: 16px;
+}
+.habilidadPortfolio h2{
+  font-size: 10px;
+}
+.tarjetaMobilev2__info h1{
+  font-size: 20px;
+}
+.tarjetaMobile2__info__habilidades__span{
+  padding-left: 15px;
+  font-size: 13px;
+}
 }
 @media screen and (max-width:400px){
   
