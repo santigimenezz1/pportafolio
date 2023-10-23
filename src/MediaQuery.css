@@ -175,6 +175,7 @@
       gap: 40px;
       width: 100%;
     }
+  
     .main__hablidades__dinamico{
       display: flex;
       flex-direction: column;
@@ -216,6 +217,9 @@
       position: relative;
       bottom: 20px;
      }
+     .yellow{
+      font-size: 10px;
+     }
 }
 @media screen and (max-width:400px){
   
@@ -227,6 +231,9 @@
       width: 130px;
       justify-content: start;
     }  
+    .main__habilidades h1{
+      font-size: 15px;
+    }
     .skills{
         justify-content: center;
         width: auto;
@@ -241,5 +248,7 @@
     position: relative;
     bottom: 70px;
    }
+
+   
 
 }
