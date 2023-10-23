@@ -1,10 +1,9 @@
 .myCardMobile {
     background-color: transparent;
     width: 500px;
-    height: 805px;
+    height: 655px;
     perspective: 1000px;
   }
-  
   
   .title {
     font-size: 1.5em;
@@ -48,7 +47,7 @@
   }
   .frontSide__imagenMobile{
     width: 100%;
-    height: auto;
+    height: 270px;
   }
  
   .frontSide::before,
