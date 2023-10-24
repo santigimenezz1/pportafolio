@@ -11,9 +11,10 @@
     z-index: 2;
     width: 400px;
     height: 525px;
-    background-image: url("https://res.cloudinary.com/dcf9eqqgt/image/upload/v1697073934/portafolio/foto_perfil_wc17kb.png");
+    background-image: url("https://res.cloudinary.com/dcf9eqqgt/image/upload/v1698157539/portafolio/imagen_para_linkedin_correccion_color_rjlfki.png");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 .main__habilidades{
     z-index: 2;
