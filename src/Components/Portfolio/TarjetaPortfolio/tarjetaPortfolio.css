@@ -101,3 +101,9 @@
     display: flex;
     gap: 10px;
   }
+
+  .backside__infoProyecto{
+    width: 450px;
+    text-align: center;
+    
+  }

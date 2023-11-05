@@ -9,11 +9,11 @@ const Portfolio = () => {
     <div className='portfolio'>
     <h1 className='portfolio__titulo'>Portafolio</h1>
     <div className='portfolio__tarjetas'>
-    <TarjetaPortfolio urlImagen={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1697119380/portafolio/habilidades/cascanueces_v3_qdofay.png"} demo={"https://cascanueces-ue9o.vercel.app/"}/>
-    <TarjetaPortfolio urlImagen={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1698090564/portafolio/dashboard_v2_tzlayr.png"} demo={"https://dashboard-cascanueces-saludable-admin-nacho.vercel.app/"} description={"App independiente a cascanueces saludable, en la que el admin puede agregar, editar o eliminar sus productos a su gusto y poder gestionar todo su stock"}/>
-    <TarjetaPortfolio urlImagen={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1697122155/portafolio/habilidades/tienda_digital_v1_nuuv38.png"} demo={"https://tiendadigital.vercel.app/"} />
-    <TarjetaPortfolio urlImagen={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1697134008/portafolio/habilidades/spotyclon_qognsi.png"}  />
-    <TarjetaPortfolio urlImagen={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1698007104/portafolio/clima3_rwwmf0.png"}  demo={"https://app-del-clima-two.vercel.app/"}/>
+    <TarjetaPortfolio urlImagen={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1697119380/portafolio/habilidades/cascanueces_v3_qdofay.png"} demo={"https://cascanueces-ue9o.vercel.app/"} nombre={"Cascanueces saludable"} infoProyecto={"Proyecto realizado para una tienda local de mi cuidad Rosario, Santa fe. E-comerce donde cada usuario puede registrarse, realizar sus pedidos, guardar sus productos favoritos y llevar un registro de sus pedidos."}/>
+    <TarjetaPortfolio urlImagen={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1698090564/portafolio/dashboard_v2_tzlayr.png"} demo={"https://dashboard-cascanueces-saludable-admin-nacho.vercel.app/"} nombre={"Dashboard Cascanueces saludable"} infoProyecto={"Proyecto para mi cliente Cascanueces saludable, donde puede manejar su stock. Teniendo la posibilidad de editar sus productos, agregar nuevos o eliminarlos."}/>
+    <TarjetaPortfolio urlImagen={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1697122155/portafolio/habilidades/tienda_digital_v1_nuuv38.png"} demo={"https://tiendadigital.vercel.app/"} nombre={"Gaming Store"} infoProyecto={"Tienda de productos gaming, los usuarios van a poder registarse, seleccionar los productos que quieran obtener y finalizar su compra."}  />
+    <TarjetaPortfolio urlImagen={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1697134008/portafolio/habilidades/spotyclon_qognsi.png"} demo={"https://tiendadigital.vercel.app/"} nombre={"Clon de Spotify"} infoProyecto={"Proyecto que replica la experiencia de usuario y diseño de spotify. Cada usuario puede agregar sus artistas favoritos, crear albumnes y agregar a una coleccion sus canciones favoritas."}  />
+    <TarjetaPortfolio urlImagen={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1698007104/portafolio/clima3_rwwmf0.png"}  demo={"https://app-del-clima-two.vercel.app/"} nombre={"WeatherWise"} infoProyecto={"Proyecto que consume la api de Open Weather map, donde podemos buscar cualquier cuidad del mundo, agregarlas a una seccion de favoritos y obtener los datos climaticos del día y sus 5 dias posteriores."}/>
 
 
  
