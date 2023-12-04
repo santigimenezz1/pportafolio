@@ -14,7 +14,7 @@ const NavBar = ( {scrollToSection, scrollPortafolio} ) => {
         <ul>
          <li onClick={()=>scrollToSection()}>Sobre mi</li>
          <li onClick={()=>scrollPortafolio()}>Portfolio</li>  
-         <li> <ButtonContact text={"Contactame"} /></li>    
+          <ButtonContact text={"Contactame"} />   
         </ul>
       </div>
     </div>
