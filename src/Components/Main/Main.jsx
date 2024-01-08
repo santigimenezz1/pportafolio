@@ -16,6 +16,18 @@ const Main = () => {
       const skills = ()=>{
         setLink("skills")
       }
+
+      const descargarCV = () => {
+        const pdfURL = '/curriculum.pdf';
+        const link = document.createElement('a');
+        link.href = pdfURL;
+        link.target = '_blank';
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+      };
+
+
   return (
     <div className='main'>
     <div className='main__perfil'>
@@ -42,7 +54,9 @@ const Main = () => {
         <Perfil />
         <div className='main__habilidades__dinamico__buttons'>
       <ButtonContact  text={"Escribeme"} />
-      <ButtonContact text={"Descargar CV"} colorFondo={"yellow"} />
+      <div onClick={()=>descargarCV()}>
+      <ButtonContact  text={"Descargar CV"} colorFondo={"yellow"} />
+      </div>
       </div>
         </>
         
