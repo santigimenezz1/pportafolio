@@ -11,8 +11,8 @@ const Footer = () => {
     <div className='container__footer'>
     <h1>{logo}</h1>
     <div style={{display:"flex", flexDirection:"column", gap:"10px"}}>
-    <span>Trabajemos juntos |<ButtonContactFooter /></span>
-    <span style={{fontSize:"14px", fontWeight:"600"}}>Frontend Developer - Web Designe</span>
+    <span>Trabajemos juntos | <div><ButtonContactFooter /></div></span>
+    <span style={{fontSize:"14px", fontWeight:"600"}}>Frontend Developer - Web Designer</span>
     </div>
     </div>
     <div className='layout__social social__footer'>
