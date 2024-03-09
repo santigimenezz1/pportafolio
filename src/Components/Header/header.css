@@ -8,7 +8,6 @@
     height: 100vh;
     margin-top: 30px;
     user-select: none;
-
 }
 .layout__titulo h1{
   font-size: 110px;
@@ -33,6 +32,7 @@
     color: black;
     background-color: rgb(249, 196, 107);
     z-index: 2;
+    margin-bottom: 12px;
    
   }
   .layout__titulo__buttonDown:hover{
