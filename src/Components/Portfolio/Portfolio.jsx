@@ -19,7 +19,7 @@ const Portfolio = () => {
     </div>
 
     <div className='portfolio__tarjetasMobile'>
-    <TarjetaMobilev2 nombre={"Cascanueces saludable"} urlImagen={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1697119380/portafolio/habilidades/cascanueces_v3_qdofay.png"} demo={"https://cascanueces-saludable.vercel.app/"} description={"e-comerce para una tienda de la cuidad de rosario, la cual contiene registro de usuarios, y un app independiente para agregar, editar o eliminar los productos"}/>
+    <TarjetaMobilev2 nombre={"Cascanueces saludable"} urlImagen={"https://cascanueces-saludable-store.vercel.app"}/>
     <TarjetaMobilev2 nombre={"Dashboard cascanueces"} urlImagen={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1698090564/portafolio/dashboard_v2_tzlayr.png"} demo={"https://dashboard-cascanueces.vercel.app/"} description={"App independiente a cascanueces saludable, en la que el admin puede agregar, editar o eliminar sus productos a su gusto y poder gestionar todo su stock"}/>
     <TarjetaMobilev2 nombre={"Compra gamer"} urlImagen={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1697122155/portafolio/habilidades/tienda_digital_v1_nuuv38.png"} demo={"https://tiendadigital.vercel.app/"} description={"e-comerce de una tienda de productos para gaming, en el que cualquier comprador puede agregar sus productos a un carrito y enviarle el pedido al local para gestionar su envio a domicilio"}/>
     <TarjetaMobilev2 nombre={"SpotyClon"} urlImagen={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1697134008/portafolio/habilidades/spotyclon_qognsi.png"}  description={"Clon de spotify, en el cual cada usuario puede agregar sus artitas preferidos, agregar albunes y canciones y tener una seccion de canciones favoritas"}/>  
