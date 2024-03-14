@@ -1,0 +1,19 @@
+.container__email{
+     display: flex;
+     justify-content: center;
+     border-radius: 4px;
+     gap: 5px;
+}
+.container__email__texto{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 160px;
+    padding-left: 4px;
+    
+}
+.container__email__texto h3{
+ font-size: 14px;
+ padding: 10px;
+ border-radius: 4px;
+}
