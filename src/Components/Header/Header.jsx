@@ -32,7 +32,6 @@ const Header = ( {scrollToSection} ) => {
     <div className='layout__social'>
     <a href='https://www.linkedin.com/in/santiago-gimenez-004253282/' target='blank'>  <LinkedInIcon className='icon__social' fontSize='large'/>  </a>
     <a href='https://github.com/santigimenezz1?tab=repositories' target='blank'> <GitHubIcon className='icon__social' fontSize='large' /> </a>
-    <CopyEmail  />
     
     </div>
     <div className='layout__titulo__buttonDown'>
