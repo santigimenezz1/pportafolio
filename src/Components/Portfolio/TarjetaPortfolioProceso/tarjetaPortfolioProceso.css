@@ -1,0 +1,127 @@
+.myCardProceso {
+    background-color: transparent;
+    width: 600px;
+    height: 355px;
+    perspective: 1000px;
+    position: relative;
+  }
+
+  .titulo__proceso{
+    color: white;
+    position: absolute;
+    z-index: 100;
+    top: 45%;
+    left: 18%;
+  }
+  
+  .title {
+    font-size: 1.5em;
+    font-weight: 900;
+    text-align: center;
+    margin: 0;
+  }
+  
+  .innerCard {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    cursor: pointer;
+
+  }
+  
+  .myCardProceso:hover .innerCard {
+    transform: rotateY(180deg);
+  }
+ 
+  
+  .frontSideProceso
+  {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    color: white;
+    font-weight: 700;
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    border: 20px solid rgb(104, 4, 204);
+
+  }
+  .frontSide__imagenProceso{
+    width: 100%;
+    height: 100%;
+    filter: brightness(0.5);
+
+  }
+  .backSideProceso {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    color: white;
+    font-weight: 700;
+    background-color: rgb(37, 46, 66);
+    gap: 25px;
+    filter: brightness(0.5);
+
+
+  }
+  .backSideProceso h1{
+    font-size: 30px;
+   color: rgb(249, 196, 107) ;
+   font-weight: 700;
+  }
+  
+  
+  .backSideProceso {
+    transform: rotateY(180deg);
+  }
+  
+  .frontSide::before,
+  .backSideProceso::before {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    content: '';
+    width: 110%;
+    height: 110%;
+    position: absolute;
+    z-index: -1;
+    border-radius: 1em;
+  }
+  
+  .backSide__tecnologias{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .backSide__buttons{
+    display: flex;
+    gap: 10px;
+  }
+
+  .backside__infoProyecto{
+    width: 450px;
+    text-align: center;
+    
+  }
+  .titulo__proceso{
+    font-size: 30px;
+  }
