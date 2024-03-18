@@ -2,10 +2,20 @@
     width: auto;
     display: flex;
     flex-wrap: wrap;
-    gap: 15px;
+    gap: 25px;
     column-gap: 15px;
     justify-content: start;
     align-items: center;
     margin-top: 10px;
     
+}
+.titulo__skills{
+    font-size: 30px;
+    text-align: start;
+    margin-bottom: 25px ;
+    
+}
+
+.container__skills{
+    width: 100%;
 }

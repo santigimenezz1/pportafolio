@@ -1,14 +1,16 @@
 .habilidad__skill{
     display: flex;
-    align-items: end;
+    flex-direction: column;
+    align-items: start;
     gap: 10px;
-    width: 175px;
+    width: 130px;
 }
     .habilidad__skill img{
-    width: 25px;
-    height: 25px;
+    width: 45px;
+    height: 45px;
 }
 
 .habilidad__skill__titulo{
     font-size: 18px;
+    
 }
