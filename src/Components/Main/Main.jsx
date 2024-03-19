@@ -6,7 +6,7 @@ import Skills from './Skills/Skills'
 import Perfil from './Perfil/Perfil'
 
 const Main = () => {
-    const [link, setLink] = useState("perfil")
+    const [link, setLink] = useState("skills")
     const perfil = ()=>{
         setLink("perfil")
       }
