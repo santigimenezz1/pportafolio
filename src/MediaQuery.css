@@ -19,6 +19,21 @@
       }
 }
 
+@media screen and (max-width: 900px){
+  .main{
+    flex-direction: column;
+    height: auto;
+    padding: 5px;
+    
+}
+.main__habilidades__links{
+  width: 70vw;   
+}
+
+
+
+}
+
 @media screen and (max-width: 760px){
   
        /*NAVBAR MOBILE*/
@@ -26,6 +41,10 @@
        
 
          /*HEADER*/
+         .layout{
+          border: 1px solid red;
+          height: 700px;
+         }
 
     .layout__titulo h1{
         font-size: 60px;
@@ -53,7 +72,7 @@
         color: rgb(249, 196, 107);   
     }
     .main__habilidades__links{
-        width: 90vw;   
+        width: 90vw;  
     }
     .main__hablidades__links__link{
         justify-content: center; 
@@ -80,12 +99,19 @@
       text-align: center;
     }
    
+   
     .skills{
-      width: 400px;
-      justify-content: center;
+      display: flex;
+      justify-content: end;
+      width: 100%;
+      row-gap: 40px;
     }
     .habilidad__skill{
       width: 150px;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      padding-left: 20px;
     }
     .main__hablidades__dinamico{
      display: flex;
@@ -185,6 +211,15 @@
     .main__hablidades__links{
      padding-left: 0px;
     }
+    .skills{
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      row-gap: 40px;
+    }
+    .habilidad__skill{
+      width: 110px;
+    }
   
                 /*PORTAFOLIO TARJETAS*/
 
@@ -253,6 +288,16 @@
   gap: 120px;
   margin-bottom: 150px;
 }
+.proyectos{
+  margin-top: 150px;
+}
+.habilidad__skill{
+  width: 90px;
+}
+.habilidad__skill__titulo{
+  font-size: 14px;
+  
+}
 }
 
 @media screen and (max-width:400px){
@@ -282,6 +327,14 @@
     position: relative;
     bottom: 70px;
    }
+
+   .habilidad__skill{
+    width: 90px;
+  }
+  .habilidad__skill__titulo{
+    font-size: 14px;
+    
+  }
 
    
 
