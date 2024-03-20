@@ -4,8 +4,9 @@
     align-items: center;
 }
 .cursos img{
-    width: 25px;
-    height: 25px;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
 }
 .cursos h4{
    font-size: 16px;
