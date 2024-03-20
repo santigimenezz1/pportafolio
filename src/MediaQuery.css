@@ -290,13 +290,27 @@
 .proyectos{
   margin-top: 150px;
 }
+.skills{
+  justify-content: center;
+  padding-left: 0px;
+  padding-right: 15px;
+
+}
 .habilidad__skill{
-  width: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  width: 60px;
 }
+  .habilidad__skill img{
+  width: 35px;
+  height: 35px;
+}
+
 .habilidad__skill__titulo{
-  font-size: 14px;
+  font-size: 12px;
   
-}
 }
 
 @media screen and (max-width:400px){
