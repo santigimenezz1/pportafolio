@@ -42,7 +42,6 @@
 
          /*HEADER*/
          .layout{
-          border: 1px solid red;
           height: 700px;
          }
 
@@ -328,13 +327,28 @@
     bottom: 70px;
    }
 
-   .habilidad__skill{
-    width: 90px;
+  .skills{
+    justify-content: center;
+    padding-left: 0px;
+    padding-right: 15px;
+
   }
-  .habilidad__skill__titulo{
-    font-size: 14px;
+  .habilidad__skill{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    width: 60px;
+}
+    .habilidad__skill img{
+    width: 35px;
+    height: 35px;
+}
+
+.habilidad__skill__titulo{
+    font-size: 12px;
     
-  }
+}
 
    
 
