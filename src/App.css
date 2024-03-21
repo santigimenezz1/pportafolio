@@ -17,8 +17,9 @@ html {
     position: relative;
     display: flex;
     flex-direction: column;
-    bottom: 75px;
+    bottom: 60px;
     border: 1px solid red;
+    
   }
   .fondo__nav{
     height: 60px;
