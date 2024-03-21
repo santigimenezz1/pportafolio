@@ -18,7 +18,6 @@ html {
     display: flex;
     flex-direction: column;
     bottom: 120px;
-    border: 1px solid red;
     
   }
   .fondo__nav{
