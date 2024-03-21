@@ -6,13 +6,14 @@
     justify-content: center;
     gap: 15px;
     height: 100vh;
-    margin-top: 30px;
+    margin-top: 60px;
     user-select: none;
 }
 .layout__titulo h1{
   font-size: 110px;
   user-select: none;
   text-align: center;
+
 
 }
 .layout__titulo span{
