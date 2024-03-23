@@ -18,7 +18,7 @@ const Main = () => {
       }
 
       const descargarCV = () => {
-        const pdfURL = '/curriculum.pdf';
+        const pdfURL = '/CV.pdf';
         const link = document.createElement('a');
         link.href = pdfURL;
         link.target = '_blank';
