@@ -10,7 +10,6 @@ const Portfolio = () => {
     <div className='portfolio'>
     <h1 className='portfolio__titulo'>Portafolio</h1>
     <div className='portfolio__tarjetas'>
-    <TarjetaPortfolio urlImagen={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1710685878/portafolio/Sin_t%C3%ADtulo_ngsbbn.jpg"} demo={"https://portfolio-santiago-gimenez.vercel.app"} nombre={"Portafolio personal"} infoProyecto={"Portafolio personal desarrollado con React.js "}/>
     <TarjetaPortfolio urlImagen={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1710074924/portafolio/Captura_de_pantalla_2024-03-10_a_las_13.24.18_sl3awg.jpg"} demo={"https://cascanueces-saludable-store.vercel.app"} nombre={"Cascanueces saludable"} infoProyecto={"Proyecto realizado para una tienda local de mi cuidad Rosario, Santa fe. E-comerce donde cada usuario puede registrarse, realizar sus pedidos, guardar sus productos favoritos y llevar un registro de sus pedidos."}/>
     <TarjetaPortfolio urlImagen={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1711025187/portafolio/Imagen_21-3-24_a_las_13.44_nxcamy.jpg"} demo={"https://dashboard-cascanueces.vercel.app/"} nombre={"Dashboard Cascanueces saludable"} infoProyecto={"Proyecto para mi cliente Cascanueces saludable, donde puede manejar su stock. Teniendo la posibilidad de editar sus productos, agregar nuevos o eliminarlos."}/>
     <TarjetaPortfolio urlImagen={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1710369290/Imagen_13-3-24_a_las_23.34_iaw2n6.jpg"} demo={"https://tienda-digital.vercel.app"} nombre={"Gaming Store"} infoProyecto={"Tienda de productos gaming, los usuarios van a poder registarse, seleccionar los productos que quieran obtener y finalizar su compra."}  />
@@ -19,7 +18,6 @@ const Portfolio = () => {
     <TarjetaPortfolio urlImagen={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1710075299/portafolio/Captura_de_pantalla_2024-03-10_a_las_13.28.26_m2aae2.jpg"}  demo={"https://t-movies-phi.vercel.app/"} nombre={"TMovies"} infoProyecto={"aplicación web que utiliza la API de The Movie Database (TMDB). La interfaz ofrece búsquedas instantáneas, detalles completos de películas, información de reparto y, para series, una vista de temporadas y episodios. Desarrollado con Next.js,  para una experiencia de usuario ágil."}/>
     <TarjetaPortfolio urlImagen={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1700692085/portafolio/tu_historia_foto_2_ehwz9f.png"}  demo={"https://tu-historia.vercel.app/"} nombre={"TuHistoria.com"} infoProyecto={"App para compartir con la comunidad historia raras que te hayan pasado, pudiendo intercambiar ideas y agregar imagenes a nustras historias favoritos."}/>
     <TarjetaPortfolio urlImagen={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1710072446/portafolio/Imagen_10-3-24_a_las_13.01_thwuuf.jpg"}  demo={"https://stock-de-fotografia.vercel.app"} nombre={"Stock de fotos"} infoProyecto={"Descubre una aplicación donde puedes realizar búsquedas de imágenes y videos, con acceso a una amplia variedad de recursos. Explora y descarga tus imágenes favoritas con facilidad"}/>
-
     </div>
 
     <div className='portfolio__tarjetasMobile'>
