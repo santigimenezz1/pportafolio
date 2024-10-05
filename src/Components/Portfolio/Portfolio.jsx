@@ -21,6 +21,7 @@ const Portfolio = () => {
     <TarjetaPortfolio urlImagen={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1717664389/portafolio/Imagen_6-6-24_a_las_10.56_wtdlhn.jpg"} demo={"https://tienda-digital.vercel.app"} nombre={"Gaming Store"} infoProyecto={"Tienda de productos gaming, los usuarios van a poder registarse, seleccionar los productos que quieran obtener y finalizar su compra."}  />
     <TarjetaPortfolio urlImagen={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1717198986/portafolio/Imagen_1-6-24_a_las_1.41_wglbum.jpg"}  demo={"https://aura-rust.vercel.app"} nombre={"Aura Io"} infoProyecto={"Descubre nuestra extensa biblioteca de componentes listos para usar en tus proyectos de HTML y CSS. Encuentra todo lo que necesitas para dar vida a tus diseños web de manera rápida y sencilla. Simplifica tu proceso de desarrollo y crea sitios impresionantes con facilidad."}/>
     <TarjetaPortfolio urlImagen={"https://res.cloudinary.com/dcf9eqqgt/image/upload/v1700692085/portafolio/tu_historia_foto_2_ehwz9f.png"}  demo={"https://tu-historia.vercel.app/"} nombre={"TuHistoria.com"} infoProyecto={"App para compartir con la comunidad historia raras que te hayan pasado, pudiendo intercambiar ideas y agregar imagenes a nustras historias favoritos."}/>
+    
 
 
     </div>
